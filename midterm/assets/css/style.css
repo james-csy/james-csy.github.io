@@ -81,6 +81,14 @@ body {
     justify-content: center;
 }
 
+.product1 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
 .product{
     height: 300px;
     border-radius: 20px;
@@ -113,9 +121,19 @@ body {
 }
 
 
-h1, h2, p, a{
+h1, h2, h3, p, a, button{
     margin: 5px;
     font-family: Lato;
+}
+
+.product1 button {
+    background: #0D324D;
+    border-radius: 8px;
+    color: #FFB400;
+    font-size: 20px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 
